@@ -1,0 +1,34 @@
+{
+  "name": "bitbit",
+  "version": "0.0.0",
+  "description": "JavaScript Object to Bits Utility",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha test/**/*.test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/WakeskaterX/bitbit.git"
+  },
+  "keywords": [
+    "Object",
+    "Bit",
+    "Utility",
+    "Mask"
+  ],
+  "author": "Jason Carter",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/WakeskaterX/bitbit/issues"
+  },
+  "homepage": "https://github.com/WakeskaterX/bitbit#readme",
+  "dependencies": {
+    "lodash": "^4.17.4"
+  },
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "flow-bin": "^0.45.0",
+    "flow-remove-types": "^1.2.1",
+    "mocha": "^3.3.0"
+  }
+}
