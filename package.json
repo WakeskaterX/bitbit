@@ -1,10 +1,13 @@
 {
   "name": "bitbit",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "JavaScript Object to Bits Utility",
   "main": "index.js",
   "scripts": {
-    "test": "mocha test/**/*.test.js"
+    "test": "mocha test/**/*.test.js",
+    "build": "npm run lint && npm run test",
+    "lint": "./node_modules/eslint/bin/eslint.js --config .eslintrc index.js lib/ test/",
+    "prepublish": "npm run build"
   },
   "repository": {
     "type": "git",
@@ -23,12 +26,14 @@
   },
   "homepage": "https://github.com/WakeskaterX/bitbit#readme",
   "dependencies": {
+    "debug": "^2.6.6",
     "lodash": "^4.17.4"
   },
   "devDependencies": {
+    "babel-eslint": "^7.2.3",
     "chai": "^3.5.0",
-    "flow-bin": "^0.45.0",
-    "flow-remove-types": "^1.2.1",
+    "chai-shallow-deep-equal": "^1.4.6",
+    "eslint": "^3.19.0",
     "mocha": "^3.3.0"
   }
 }
