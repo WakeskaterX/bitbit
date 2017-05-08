@@ -11,7 +11,7 @@ Supports:
 Does Not Support:
   * Packing anything other than numbers or booleans down yet
 
-###Usage
+### Usage
 
 ``` JavaScript
 const BitBit = require('bitbit');

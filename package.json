@@ -1,6 +1,6 @@
 {
   "name": "bitbit",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "JavaScript Object to Bits Utility",
   "main": "index.js",
   "scripts": {
