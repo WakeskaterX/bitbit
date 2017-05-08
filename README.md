@@ -11,6 +11,10 @@ Supports:
 Does Not Support:
   * Packing anything other than numbers or booleans down yet
 
+### Installation
+
+`npm install bitbit`
+
 ### Usage
 
 ``` JavaScript
